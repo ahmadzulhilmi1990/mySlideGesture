@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="cblue" type="color">#FF33B5E5</item>
+    <item name="cpurple" type="color">#FFAA66CC</item>
+    <item name="cgreen" type="color">#FF99CC00</item>
+    <item name="corange" type="color">#FFFFBB33</item>
+    <item name="cred" type="color">#FFFF4444</item>
+    <item name="cdarkblue" type="color">#FF0099CC</item>
+    <item name="cdarkpurple" type="color">#FF9933CC</item>
+    <item name="cdarkgreen" type="color">#FF669900</item>
+    <item name="cdarkorange" type="color">#FFFF8800</item>
+    <item name="cdarkred" type="color">#FFCC0000</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/cblue</item>
+        <item>@color/cpurple</item>
+        <item>@color/cgreen</item>
+        <item>@color/corange</item>
+        <item>@color/cred</item>
+        <item>@color/cdarkblue</item>
+        <item>@color/cdarkpurple</item>
+        <item>@color/cdarkgreen</item>
+        <item>@color/cdarkorange</item>
+        <item>@color/cdarkred</item>
+    </integer-array>
+
+</resources>

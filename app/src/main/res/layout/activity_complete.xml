@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/content_background"
+    tools:context=".CompleteActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="60dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center|bottom"
+                        android:textSize="18sp"
+                        android:visibility="invisible"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Complete Activity"/>
+
+                    <LinearLayout
+                        android:id="@+id/icon_share"
+                        android:layout_alignRight="@+id/title"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="50dp"
+                        android:gravity="center"
+                        android:layout_height="40dp">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:src="@drawable/ic_share"
+                            android:layout_height="25dp"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:weightSum="1"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_content_complete"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yay! transaction succesful."
+                        android:layout_marginRight="0dp"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/black"
+                        android:gravity="left"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Curabitur pellentesque justo scelerisque massa ultrices, non convallis velit cursus."
+                        android:layout_marginRight="0dp"
+                        android:textSize="14sp"
+                        android:layout_marginTop="9dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:gravity="left"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_done"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="35dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="DONE"
+                android:fontFamily="@font/poppins_regular"
+                android:background="@drawable/border_button"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
